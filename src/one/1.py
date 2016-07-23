@@ -29,3 +29,9 @@ s = 'hello!'
 a, b, c, d, e, f = s
 print a
 print f
+
+data = [ 'ACME', 50, 91.1, (2012, 12, 21) ]
+_, shares, price, _ = data 
+print shares
+print price
+#其他数据可以丢弃了
