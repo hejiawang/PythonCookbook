@@ -52,7 +52,3 @@ for month, day, year in datepat.findall(text):
 
 for m in datepat.finditer(text):
     print(m.groups())
-
-
-
-
