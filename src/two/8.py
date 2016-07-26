@@ -22,11 +22,3 @@ print comment.findall(text2)
 
 comment = re.compile(r'/\*(.*?)\*/', re.DOTALL)
 print comment.findall(text2)
-
-
-
-
-
-
-
-
